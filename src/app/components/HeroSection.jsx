@@ -16,13 +16,13 @@ const HeroSection = () => {
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#1C1678] to-[#8576FF]">
               Hello, I&apos;m{" "}
             </span>
             <br></br>
             <TypeAnimation
               sequence={[
-                "Judy",
+                "Dinuka Udawela",
                 1000,
                 "Web Developer",
                 1000,
@@ -37,8 +37,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptuous.
+            I am passionate about software engineering and eager to embrace new development technologies and methodologies. As a quick learner, I excel in fast-paced environments and am committed to continuous learning. My goal is to work smart and effectively contribute to the success of any project I am involved in, leveraging my adaptability and dedication to drive innovation and results.
           </p>
           <div>
             <Link
@@ -67,7 +66,7 @@ const HeroSection = () => {
             <Image
               src="/images/hero-image.png"
               alt="hero image"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              className="absolute transform -translate-x-1/2 -translate-y-60 top-1/2 left-1/2"
               width={300}
               height={300}
             />
